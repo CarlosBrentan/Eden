@@ -1,0 +1,172 @@
+<html>
+<head>
+    
+    <script type="text/javascript">
+    function acMostra(id) {
+        //captura o elemento que ir� aparecer
+        var res = document.getElementById(id);
+        //testa se ele est� visivel ou n�o
+        //se estiver torna-o invisivel, caso contr�rio o inverso =D
+        if (res.style.display == 'block') res.style.display =   'none';
+        else res.style.display = 'block';
+        
+        
+    }
+        
+        
+</script>
+
+    
+    
+    <style>
+    
+    button.trigger {
+    background-color: aqua;
+    color: #0072D4;
+    cursor: pointer;
+    width: 92.59%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    padding: 1.4rem;
+        float: right;
+        margin-left: 0px;
+       
+}
+    
+        
+        
+        div.faq_content {
+    background-color: #F8F8F8;
+    padding: 0 18px;
+    max-height: 300px;
+    overflow: hidden;
+    float: right;
+    margin-bottom: 2rem;
+    width: 89.5%;
+            border-radius: 5px;
+            
+   
+        }
+        
+        
+        div.logo{
+            
+            background-color: aqua;
+            border-bottom-left-radius: 50%;
+            border-top-left-radius:  50%;
+            float: left;
+            width:100px;
+            height:100px;
+           margin-right: 0px;
+
+            
+        }
+
+        img.foto{
+            width: 100px;
+            height: 100px;
+                
+        }
+        
+        
+    </style>
+    
+    </head>
+
+
+    <body>
+    
+  
+        <div class="logo">
+        
+        
+        
+        <img class="foto" src="divPlanta.png">
+             
+             
+        </div>
+        
+        
+        
+        
+        <button class="trigger">
+        
+        <h4 href="javascript: void(0);" onclick="acMostra('res1');" >
+            
+            "teste 1"
+            
+        </h4>
+        
+        
+            
+        </button>
+        
+        
+    <div class="faq_content" >
+        
+        
+        <p class="resposta" id="res1" >alguma coisa aqui 1 </p>
+        
+        </div>
+        
+        
+        
+        
+        
+       
+    
+    <button class="trigger">
+        
+        <h4 href="javascript: void(0);" onclick="acMostra('res2');" >
+            
+            "teste 2"
+            
+        </h4>
+        
+        
+            
+        </button>
+        
+        
+    <div class="faq_content" >
+        
+        
+        <p class="resposta" id="res2" >alguma coisa aqui 2 </p>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+       
+    <button class="trigger">
+        
+        <h4 href="javascript: void(0);" onclick="acMostra('res3');">
+            
+            "teste 3"
+            
+        </h4>
+        
+        
+            
+        </button>
+        
+        
+    <div class="faq_content" >
+        
+        
+        <p class="resposta" id="res3" >alguma coisa aqui 3</p>
+        
+        </div>
+    
+    
+    </body>
+    
+    
+
+</html>
