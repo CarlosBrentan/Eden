@@ -1,0 +1,5 @@
+Relatório Semanal 
+A semana de 26 a 29 de março nos trouxe um avanço no arduíno: recebemos os kits e foi possível aprendermos como o mesmo mediria a temperatura do ambiente a partir do sensor LM35. Fizemos a junção disto no Arduino Create e vimos as oscilações das temperaturas direto no Arduino Web Editor. Porém, ainda não sabemos como mandar estes dados para uma página HTML. 
+Além destas tarefas, foi estabelecido que, durante a semana, revisaríamos os temas vistos na segunda-feira (dia em que temos aula de Arquitetura Computacional) e tentaríamos ainda ir além, testando projetos no arduíno.  
+Ainda nesta semana, descobrimos como seria feita a conexão dos dados inseridos na página HTML com o banco de dados Azure. 
+
